@@ -87,6 +87,6 @@ while True:
     FAIL_COUNT += 1
   
   # Cooldown
-  cooldown_time = randint(15,20)
+  cooldown_time = randint(20,40)
   log.info(f"Sleep: {cooldown_time} seconds.")
   sleep(cooldown_time)
